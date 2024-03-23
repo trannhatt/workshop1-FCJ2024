@@ -10,7 +10,7 @@ chapter: false
 #### Overview
 
 In this lab, you will learn about building a three-tier architecture with high availability and fault tolerance to deploy a **LAMP STACK** application on **AWS**. We will leverage various **AWS** services using the **management console**.
-![Architecture Workshop 1](workshop1-FCJ2024/images/1-Introduce/fcj2024-ws1-architechture.png?featherlight=false&width=40pc)
+![Architecture Workshop 1](/workshop1-FCJ2024/images/1-Introduce/fcj2024-ws1-architechture.png?featherlight=false&width=40pc)
 
 #### Contents
 
