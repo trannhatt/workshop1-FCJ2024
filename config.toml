@@ -1,6 +1,5 @@
-
 # Change the default theme to be use when building the site with Hugo
-BaseURL = ""
+BaseURL = "https://trannhatt.github.io/workshop1-FCJ2024"
 theme = "hugo-theme-learn"
 
 # For search functionality
