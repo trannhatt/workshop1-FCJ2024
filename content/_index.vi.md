@@ -20,6 +20,6 @@ Trong bài lab này, bạn sẽ tìm hiểu về việc xây dựng kiến trúc
 4. [Triển khai cơ sở dữ liệu và dịch vụ lưu trữ](4-deployrdsands3/)
 5. [Thiết lập máy chủ và cấu hình Amazon EFS](5-setupec2serverandefs)
 6. [Triển khai ứng dụng](6-deployapplication/)
-7. [Kiểm tra thông báo](7-TestNotification)
-8. [Optional](8-Optional)
+7. [Kiểm tra thông báo](7-testnotification/)
+8. [Optional](8-optional/)
 9. [Dọn dẹp tài nguyên](9-cleanup/)

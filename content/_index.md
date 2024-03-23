@@ -20,6 +20,6 @@ In this lab, you will learn about building a three-tier architecture with high a
 4. [Deploying Database and Storage Services](4-deployrdsands3/)
 5. [Setting Up Servers and Configuring Amazon EFS](5-setupec2serverandefs)
 6. [Deploying the Application](6-deployapplication/)
-7. [Testing Notifications](7-testnotification)
-8. [Optional](8-optional)
+7. [Testing Notifications](7-testnotification/)
+8. [Optional](8-optional/)
 9. [Resource Cleanup](9-cleanup/)
