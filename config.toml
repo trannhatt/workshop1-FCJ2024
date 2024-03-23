@@ -1,6 +1,5 @@
 relativeURLs = true
 # Change the default theme to be use when building the site with Hugo
-BaseURL = "https://trannhatt.github.io/workshop1-FCJ2024/"
 theme = "hugo-theme-learn"
 
 # For search functionality
@@ -11,7 +10,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = "https://trannhatt.github.io/workshop1-FCJ2024/"
+  editURL = ""
   description = ""
   author = "journeyoftheaverageguy@gmail.com"
   showVisitedLinks = true

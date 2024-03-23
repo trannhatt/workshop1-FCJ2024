@@ -10,7 +10,7 @@ chapter: false
 #### Tổng quan
 
 Trong bài lab này, bạn sẽ tìm hiểu về việc xây dựng kiến trúc 3 tầng với tính sẳn sàn cao và có khả năng chịu lỗi để triển khai ứng dụng **LAMP STACK** trên **AWS**. Chúng ta sẽ tận dụng nhiều dịch vụ khác nhau của **AWS** sử dụng **management console**.
-![Architecture Workshop 1](../images/1-Introduce/fcj2024-ws1-architechture.png?featherlight=false&width=40pc)
+![Architecture Workshop 1](/workshop1-FCJ2024/images/1-Introduce/fcj2024-ws1-architechture.png?featherlight=false&width=40pc)
 
 #### Nội dung
 
