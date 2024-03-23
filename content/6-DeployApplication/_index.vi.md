@@ -17,4 +17,4 @@ Trong phần này, chúng ta sẽ tạo Application Load Balancer để phân ph
 3. [Tạo AMI](6.3-createami/)
 4. [Tạo Launch Template](6.4-createlaunchtemp/)
 5. [Tạo Autoscaling Group](6.5-createasg/)
-6. [Tạo Cloudfront và Web ACL](5.5-updatedbtordsinstance/)
+6. [Tạo Cloudfront và Web ACL](6.6-createcloudfrontandwaf)

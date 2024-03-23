@@ -17,4 +17,4 @@ In this section, we will create an Application Load Balancer to distribute traff
 3. [Create AMI](6.3-createami/)
 4. [Create Launch Template](6.4-createlaunchtemp/)
 5. [Create Auto Scaling Group](6.5-createasg/)
-6. [Create CloudFront and Web ACL](5.5-updatedbtordsinstance/)
+6. [Create CloudFront and Web ACL](6.6-createcloudfrontandwaf)
