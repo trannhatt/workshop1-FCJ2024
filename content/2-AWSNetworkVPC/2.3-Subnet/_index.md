@@ -12,5 +12,5 @@ In this section, we will create 6 subnets, including 2 Public Subnets and 4 Priv
 
 #### Contents
 
-1. [Create 6 Subnets](2.3.1-CreateSubnet/)
-2. [Enable IPv4 for 2 Public Subnets](2.3.2-EnableIPv4PubSubnet/)
+1. [Create 6 Subnets](2.3.1-createsubnet/)
+2. [Enable IPv4 for 2 Public Subnets](2.3.2-enableipv4pubsubnet/)

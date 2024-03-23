@@ -12,5 +12,5 @@ Trong phần này, chúng ta sẽ tạo VPC và bật DNS Hostname cho VPC đó.
 
 #### Nội dung
 
-1. [Tạo VPC](2.1.1-CreateVPC/)
-2. [Bật DNS Hostname](2.1.2-EnableDNSHostname/)
+1. [Tạo VPC](2.1.1-createvpc/)
+2. [Bật DNS Hostname](2.1.2-enablednshostname/)

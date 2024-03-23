@@ -12,8 +12,8 @@ Trong phần này, chúng ta sẽ tiến hành quá trình thiết lập và c�
 
 #### Nội dung
 
-1. [Tạo Bastion Host trong Public Subnet](5.1-CreateBastionHost/)
-2. [Tạo EC2 Setup Server trong Private Subnet](5.2-CreateEC2SetupServer/)
-3. [Cấu hình cho EC2 Setup Server](5.3-ConfigureEC2/)
-4. [Tải file từ S3 vào EC2 Setup Server](5.4-DownloadSourceCodeS3/)
-5. [Cập nhật Database vào RDS Instance](5.5-UpdateDBtoRDSInstance/)
+1. [Tạo Bastion Host trong Public Subnet](5.1-createbastionhost/)
+2. [Tạo EC2 Setup Server trong Private Subnet](5.2-createec2setupserver/)
+3. [Cấu hình cho EC2 Setup Server](5.3-configureec2/)
+4. [Tải file từ S3 vào EC2 Setup Server](5.4-downloadsourcecodes3/)
+5. [Cập nhật Database vào RDS Instance](5.5-updatedbtordsinstance/)

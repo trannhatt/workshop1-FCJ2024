@@ -12,9 +12,9 @@ In this section, we will create an Application Load Balancer to distribute traff
 
 #### Contents
 
-1. [Create Target Group](6.1-CreateTargetGroup/)
-2. [Create Application Load Balancer](6.2-CreateALB/)
-3. [Create AMI](6.3-CreateAMI/)
-4. [Create Launch Template](6.4-CreateLaunchTemp/)
-5. [Create Auto Scaling Group](6.5-CreateASG/)
-6. [Create CloudFront and Web ACL](5.5-UpdateDBtoRDSInstance/)
+1. [Create Target Group](6.1-createtargetgroup/)
+2. [Create Application Load Balancer](6.2-createalb/)
+3. [Create AMI](6.3-createami/)
+4. [Create Launch Template](6.4-createlaunchtemp/)
+5. [Create Auto Scaling Group](6.5-createasg/)
+6. [Create CloudFront and Web ACL](5.5-updatedbtordsinstance/)

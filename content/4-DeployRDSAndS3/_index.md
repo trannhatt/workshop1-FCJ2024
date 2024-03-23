@@ -12,8 +12,8 @@ In this section, we will configure important services such as databases and stor
 
 #### Contents
 
-1. [Create DB Subnet Group](4.1-CreateDBSG/)
-2. [Create RDS Instance](4.2-RDSIntance/)
-3. [Create S3 Bucket and Upload Source Code](4.3-CreateS3/)
-4. [Create IAM Role and S3 Policy](4.4.-CreateIAMAndS3Policy/)
-5. [Create EFS File System](4.5-CreateEFSFileSystem/)
+1. [Create DB Subnet Group](4.1-createdbsg/)
+2. [Create RDS Instance](4.2-rdsintance/)
+3. [Create S3 Bucket and Upload Source Code](4.3-creates3/)
+4. [Create IAM Role and S3 Policy](4.4.-createiamands3policy/)
+5. [Create EFS File System](4.5-createefsfilesystem/)

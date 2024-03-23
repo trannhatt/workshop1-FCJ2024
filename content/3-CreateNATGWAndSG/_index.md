@@ -12,6 +12,6 @@ In this section, we will create a **NAT Gateway** and **Security Groups**.
 
 #### Contents
 
-1. [Create NAT Gateway](3.1-CreateNATGW/)
-2. [Create and Configure Private Route Table](3.2-CreatePrivateRT/)
-3. [Create Security Groups](3.3-CreateSecurityGroup/)
+1. [Create NAT Gateway](3.1-createnatgw/)
+2. [Create and Configure Private Route Table](3.2-createprivatert/)
+3. [Create Security Groups](3.3-createsecuritygroup/)

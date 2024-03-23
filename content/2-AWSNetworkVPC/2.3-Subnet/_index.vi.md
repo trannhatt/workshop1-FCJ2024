@@ -12,5 +12,5 @@ Trong phần này, chúng ta sẽ tạo 6 Subnet bao gồm 2 Public Subnet và 4
 
 #### Nội dung
 
-1. [Tạo 6 Subnets](2.3.1-CreateSubnet/)
-2. [Bật IPv4 cho 2 Public Subnets](2.3.2-EnableIPv4PubSubnet/)
+1. [Tạo 6 Subnets](2.3.1-createsubnet/)
+2. [Bật IPv4 cho 2 Public Subnets](2.3.2-enableipv4pubsubnet/)

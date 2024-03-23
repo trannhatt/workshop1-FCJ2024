@@ -12,8 +12,8 @@ In this section, we will proceed with the process of setting up and configuring 
 
 #### Contents
 
-1. [Create Bastion Host in Public Subnet](5.1-CreateBastionHost/)
-2. [Create EC2 Setup Server in Private Subnet](5.2-CreateEC2SetupServer/)
-3. [Configure EC2 Setup Server](5.3-ConfigureEC2/)
-4. [Download Files from S3 onto EC2 Setup Server](5.4-DownloadSourceCodeS3/)
-5. [Update Database into RDS Instance](5.5-UpdateDBtoRDSInstance/)
+1. [Create Bastion Host in Public Subnet](5.1-createbastionhost/)
+2. [Create EC2 Setup Server in Private Subnet](5.2-createec2setupserver/)
+3. [Configure EC2 Setup Server](5.3-configureec2/)
+4. [Download Files from S3 onto EC2 Setup Server](5.4-downloadsourcecodes3/)
+5. [Update Database into RDS Instance](5.5-updatedbtordsinstance/)

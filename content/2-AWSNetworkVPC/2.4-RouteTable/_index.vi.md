@@ -12,5 +12,5 @@ Trong phần này, chúng ta sẽ tạo Public Route Table sẽ được liên k
 
 #### Nội dung
 
-1. [Tạo và cấu hình Public Route Table](2.4.1-PublicRT/)
-2. [Tạo và cấu hình Main Route Table](2.4.2-MainPrivateRT/)
+1. [Tạo và cấu hình Public Route Table](2.4.1-publicrt/)
+2. [Tạo và cấu hình Main Route Table](2.4.2-mainprivatert/)

@@ -12,5 +12,5 @@ In this section, we will create and attach an Internet Gateway (IGW) to the VPC 
 
 #### Contents
 
-1. [Create Internet Gateway](2.2.1-CreateIGW/)
-2. [Attach Internet Gateway to VPC](2.2.2-AttachToVPC/)
+1. [Create Internet Gateway](2.2.1-createigw/)
+2. [Attach Internet Gateway to VPC](2.2.2-attachtovpc/)

@@ -12,5 +12,5 @@ In this section, we will create route tables for our VPC to manage the routing o
 
 #### Contents
 
-1. [Create and Configure Public Route Table](2.4.1-PublicRT/)
-2. [Create and Configure Main Route Table](2.4.2-MainPrivateRT/)
+1. [Create and Configure Public Route Table](2.4.1-publicrt/)
+2. [Create and Configure Main Route Table](2.4.2-mainprivatert/)

@@ -12,6 +12,6 @@ Trong phần này, chúng ta sẽ tạo **NAT Gateway** và **Security Groups**.
 
 #### Nội dung
 
-1. [Tạo NAT Gateway](3.1-CreateNATGW/)
-2. [Tạo và cấu hình Private Route Table](3.2-CreatePrivateRT/)
-3. [Tạo Security Groups](3.3-CreateSecurityGroup/)
+1. [Tạo NAT Gateway](3.1-createnatgw/)
+2. [Tạo và cấu hình Private Route Table](3.2-createprivatert/)
+3. [Tạo Security Groups](3.3-createsecuritygroup/)

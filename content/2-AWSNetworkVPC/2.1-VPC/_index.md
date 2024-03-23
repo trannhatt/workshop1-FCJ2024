@@ -12,5 +12,5 @@ In this section, we will create a VPC and enable DNS Hostname for that VPC.
 
 #### Contents
 
-1. [Create VPC](2.1.1-CreateVPC/)
-2. [Enable DNS Hostname](2.1.2-EnableDNSHostname/)
+1. [Create VPC](2.1.1-createvpc/)
+2. [Enable DNS Hostname](2.1.2-enablednshostname/)

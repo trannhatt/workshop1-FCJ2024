@@ -12,5 +12,5 @@ Trong phần này, chúng ta sẽ tạo và gắn Internet Gateway (IGW) vào VP
 
 #### Nội dung
 
-1. [Tạo Internet Gateway](2.2.1-CreateIGW/)
-2. [Gắn Internet Gateway vào VPC](2.2.2-AttachToVPC/)
+1. [Tạo Internet Gateway](2.2.1-createigw/)
+2. [Gắn Internet Gateway vào VPC](2.2.2-attachtovpc/)

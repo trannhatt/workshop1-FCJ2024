@@ -12,8 +12,8 @@ Trong phần này, chúng ta sẽ tiến hành cấu hình các dịch vụ quan
 
 #### Nội dung
 
-1. [Tạo DB Subnet Group](4.1-CreateDBSG/)
-2. [Tạo RDS Instance](4.2-RDSIntance/)
-3. [Tạo S3 Bucket và Upload Source Code](4.3-CreateS3/)
-4. [Tạo IAM Role và S3 Policy](4.4.-CreateIAMAndS3Policy/)
-5. [Tạo EFS File System](4.5-CreateEFSFileSystem/)
+1. [Tạo DB Subnet Group](4.1-createdbsg/)
+2. [Tạo RDS Instance](4.2-rdsintance/)
+3. [Tạo S3 Bucket và Upload Source Code](4.3-creates3/)
+4. [Tạo IAM Role và S3 Policy](4.4.-createiamands3policy/)
+5. [Tạo EFS File System](4.5-createefsfilesystem/)
