@@ -14,13 +14,13 @@ pre: " <b> 2.4.2 </b> "
    - Chọn mục **Subnet associations**
    - Chọn **Edit subnet associations**
 
-   ![Configure Main Route Table](/images/2.4-RouteTable/2.4.2-MainPrivateRT/0001-mainrt.png?featherlight=false&width=90pc)
+   ![Configure Main Route Table](/workshop1-FCJ2024/images/2.4-RouteTable/2.4.2-MainPrivateRT/0001-mainrt.png?featherlight=false&width=90pc)
 
    - Tại mục **Available subnets**, chọn các private subnet bao gồm **pri-sub-3a**, **pri-sub-4b**, **pri-sub-5a** và **pri-sub-6b**
    - Cuối cùng, chọn **Save associations**
 
-   ![Configure Main Route Table](/images/2.4-RouteTable/2.4.2-MainPrivateRT/0002-mainrt.png?featherlight=false&width=90pc)
+   ![Configure Main Route Table](/workshop1-FCJ2024/images/2.4-RouteTable/2.4.2-MainPrivateRT/0002-mainrt.png?featherlight=false&width=90pc)
 
    - Kết quả sau khi liên kết như sau
 
-   ![Configure Main Route Table](/images/2.4-RouteTable/2.4.2-MainPrivateRT/0003-mainrt.png?featherlight=false&width=90pc)
+   ![Configure Main Route Table](/workshop1-FCJ2024/images/2.4-RouteTable/2.4.2-MainPrivateRT/0003-mainrt.png?featherlight=false&width=90pc)

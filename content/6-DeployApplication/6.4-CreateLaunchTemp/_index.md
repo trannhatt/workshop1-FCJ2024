@@ -13,7 +13,7 @@ pre: " <b> 6.4 </b> "
    - Select **Launch Templates**
    - Choose **Create launch template**
 
-   ![Create Launch Template](/images/6-DeployApplication/6.4-CreateLaunchTemp/0001-createlt.png?featherlight=false&width=90pc)
+   ![Create Launch Template](/workshop1-FCJ2024/images/6-DeployApplication/6.4-CreateLaunchTemp/0001-createlt.png?featherlight=false&width=90pc)
 
 2. In the **Launch template name and description** section,
 
@@ -24,14 +24,14 @@ pre: " <b> 6.4 </b> "
      - Enter **`Name`** in the **Key** field
      - Optionally, enter **`Bookstore-launch-template`** in the **Value** field
 
-   ![Create Launch Template](/images/6-DeployApplication/6.4-CreateLaunchTemp/0002-createlt.png?featherlight=false&width=90pc)
+   ![Create Launch Template](/workshop1-FCJ2024/images/6-DeployApplication/6.4-CreateLaunchTemp/0002-createlt.png?featherlight=false&width=90pc)
 
 3. In the **Application and OS Images (Amazon Machine Image) - required** section,
 
    - Under **My AMIs**, select **Owned by me**
    - Choose the recently created **Bookstore AMI** under **Amazon Machine Image (AMI)**.
 
-   ![Create Launch Template](/images/6-DeployApplication/6.4-CreateLaunchTemp/0003-createlt.png?featherlight=false&width=90pc)
+   ![Create Launch Template](/workshop1-FCJ2024/images/6-DeployApplication/6.4-CreateLaunchTemp/0003-createlt.png?featherlight=false&width=90pc)
 
 4. In the **Instance type** section,
 
@@ -41,7 +41,7 @@ pre: " <b> 6.4 </b> "
 
    - Optionally, you may skip selecting a key pair by choosing **Don't include in launch template**.
 
-   ![Create Launch Template](/images/6-DeployApplication/6.4-CreateLaunchTemp/0004-createlt.png?featherlight=false&width=90pc)
+   ![Create Launch Template](/workshop1-FCJ2024/images/6-DeployApplication/6.4-CreateLaunchTemp/0004-createlt.png?featherlight=false&width=90pc)
 
 6. In the **Network settings** section,
 
@@ -49,8 +49,8 @@ pre: " <b> 6.4 </b> "
    - Choose **WebserverSecurityGroup** under **Common security groups**
    - Click **Create launch template**
 
-   ![Create Launch Template](/images/6-DeployApplication/6.4-CreateLaunchTemp/0005-createlt.png?featherlight=false&width=90pc)
+   ![Create Launch Template](/workshop1-FCJ2024/images/6-DeployApplication/6.4-CreateLaunchTemp/0005-createlt.png?featherlight=false&width=90pc)
 
 7. You have successfully created the Launch Template.
 
-   ![Create Launch Template](/images/6-DeployApplication/6.4-CreateLaunchTemp/0006-createlt.png?featherlight=false&width=90pc)
+   ![Create Launch Template](/workshop1-FCJ2024/images/6-DeployApplication/6.4-CreateLaunchTemp/0006-createlt.png?featherlight=false&width=90pc)

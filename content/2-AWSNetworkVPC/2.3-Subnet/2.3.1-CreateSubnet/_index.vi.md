@@ -13,13 +13,13 @@ pre: " <b> 2.3.1 </b> "
    - Chọn **Subnets**
    - Chọn **Create subnet**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0001-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0001-createsubnet.png?featherlight=false&width=90pc)
 
 2. Trong giao diện **Create subnet**
 
    - Tại **VPC ID**, chọn **vpc-Oacb9059f41ab5a37 (lamp-stack-vpc)** là VPC của bạn vừa tạo
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0002-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0002-createsubnet.png?featherlight=false&width=90pc)
 
    Tiếp tục, tại **Subnet settings** chúng ta sẽ tạo liên tục 6 subnet như sau:
 
@@ -31,7 +31,7 @@ pre: " <b> 2.3.1 </b> "
        - **Key** nhập **`Name`**
        - **Value - optional** nhập **`pub-sub-1a`**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0003-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0003-createsubnet.png?featherlight=false&width=90pc)
 
    - Tạo Public Subnet 2:
      - Tại mục **Subnet name**, nhập **`pub-sub-2b`**
@@ -41,7 +41,7 @@ pre: " <b> 2.3.1 </b> "
        - **Key** nhập **`Name`**
        - **Value - optional** nhập **`pub-sub-2b`**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0004-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0004-createsubnet.png?featherlight=false&width=90pc)
 
    - Tạo Private Subnet 3:
      - Tại mục **Subnet name**, nhập **`pri-sub-3a`**
@@ -51,7 +51,7 @@ pre: " <b> 2.3.1 </b> "
        - **Key** nhập **`Name`**
        - **Value - optional** nhập **`pri-sub-3a`**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0005-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0005-createsubnet.png?featherlight=false&width=90pc)
 
    - Tạo Private Subnet 4:
      - Tại mục **Subnet name**, nhập **`pri-sub-4b`**
@@ -61,7 +61,7 @@ pre: " <b> 2.3.1 </b> "
        - **Key** nhập **`Name`**
        - **Value - optional** nhập **`pri-sub-4b`**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0006-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0006-createsubnet.png?featherlight=false&width=90pc)
 
    - Tạo Private Subnet 5:
      - Tại mục **Subnet name**, nhập **`pri-sub-5a`**
@@ -71,7 +71,7 @@ pre: " <b> 2.3.1 </b> "
        - **Key** nhập **`Name`**
        - **Value - optional** nhập **`pri-sub-5a`**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0007-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0007-createsubnet.png?featherlight=false&width=90pc)
 
    - Tạo Private Subnet 6:
      - Tại mục **Subnet name**, nhập **`pri-sub-6b`**
@@ -81,7 +81,7 @@ pre: " <b> 2.3.1 </b> "
        - **Key** nhập **`Name`**
        - **Value - optional** nhập **`pri-sub-6b`**
 
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0008-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0008-createsubnet.png?featherlight=false&width=90pc)
 
 3. Các Subnet đã tạo thành công như sau:
-   ![Create Subnet](/images/2.3-Subnet/2.3.1-CreateSubnet/0010-createsubnet.png?featherlight=false&width=90pc)
+   ![Create Subnet](/workshop1-FCJ2024/images/2.3-Subnet/2.3.1-CreateSubnet/0010-createsubnet.png?featherlight=false&width=90pc)

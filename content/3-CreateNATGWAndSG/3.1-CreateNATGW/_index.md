@@ -13,7 +13,7 @@ pre: " <b> 3.1 </b> "
    - Select **NAT gateways**
    - Click on **Create NAT gateway**
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0001-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0001-createnatgw.png?featherlight=false&width=90pc)
 
 2. In the **Create NAT gateway** interface:
 
@@ -21,7 +21,7 @@ pre: " <b> 3.1 </b> "
    - For **Subnet**, select **subnet-09781d02f50504e98 (pub-sub-1a)**
    - Check **Allocate Elastic IP**
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0002-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0002-createnatgw.png?featherlight=false&width=90pc)
 
    Continuing,
 
@@ -30,11 +30,11 @@ pre: " <b> 3.1 </b> "
      - Optionally, enter **`lamp-stack-nat-pub-sub-1a`** for **Value**
    - Finally, click on **Create NAT gateway**
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0003-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0003-createnatgw.png?featherlight=false&width=90pc)
 
    - This successfully creates the NAT Gateway.
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0004-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0004-createnatgw.png?featherlight=false&width=90pc)
 
 #### Create the Second NAT Gateway in the Public Subnet in AZ us-east-1b
 
@@ -44,7 +44,7 @@ pre: " <b> 3.1 </b> "
 
    - Click on **Create NAT gateway**
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0005-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0005-createnatgw.png?featherlight=false&width=90pc)
 
    Continuing in the **Create NAT gateway** interface:
 
@@ -52,7 +52,7 @@ pre: " <b> 3.1 </b> "
    - For **Subnet**, select **subnet-03078b6edceb59c7e (pub-sub-2b)**
    - Check **Allocate Elastic IP**
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0006-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0006-createnatgw.png?featherlight=false&width=90pc)
 
    Continuing,
 
@@ -61,8 +61,8 @@ pre: " <b> 3.1 </b> "
      - Optionally, enter **`lamp-stack-nat-pub-sub-2b`** for **Value**
    - Finally, click on **Create NAT gateway**
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0007-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0007-createnatgw.png?featherlight=false&width=90pc)
 
 4. Now, we have successfully created the second NAT Gateway. Both gateways are in **Available** state.
 
-   ![Create NAT gateway](/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0008-createnatgw.png?featherlight=false&width=90pc)
+   ![Create NAT gateway](/workshop1-FCJ2024/images/3-CreateNATGWAndSG/3.1-CreateNATGW/0008-createnatgw.png?featherlight=false&width=90pc)

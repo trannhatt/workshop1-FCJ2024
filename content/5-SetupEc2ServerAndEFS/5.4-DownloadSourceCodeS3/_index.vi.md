@@ -15,14 +15,14 @@ pre: " <b> 5.4 </b> "
    - Chọn **Security**
    - Chọn **Modify IAM role**
 
-   ![Attach IAM to EC2](/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0001-downloadfile.png?featherlight=false&width=90pc)
+   ![Attach IAM to EC2](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0001-downloadfile.png?featherlight=false&width=90pc)
 
 2. Trong giao diện **Modify IAM role**
 
    - Tại mục **IAM role**, chọn **WS1-IAM-role-S3**
    - Chọn **Update IAM role**
 
-   ![Attach IAM to EC2](/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0002-downloadfile.png?featherlight=false&width=90pc)
+   ![Attach IAM to EC2](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0002-downloadfile.png?featherlight=false&width=90pc)
 
 #### Tải Source Code từ S3 vào EC2 Setup Server
 
@@ -39,7 +39,7 @@ cd /var/www/html
 ls -l
 ```
 
-![Attach IAM to EC2](/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0004-downloadfile.png?featherlight=false&width=90pc)
+![Attach IAM to EC2](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0004-downloadfile.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Lưu ý: thay **book-application-bucket** bằng tên của Bucket bạn tạo trong bước trước.
@@ -52,4 +52,4 @@ sudo unzip FCJ2024-sourcecode-wsl.zip
 sudo cp -R FCJ2024-sourcecode-ws1/* /var/www/html/
 ```
 
-![Attach IAM to EC2](/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0006-downloadfile.png?featherlight=false&width=90pc)
+![Attach IAM to EC2](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.4-DownloadSourceCodeS3/0006-downloadfile.png?featherlight=false&width=90pc)

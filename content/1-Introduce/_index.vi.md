@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 #### Tổng quan kiến trúc
 
-![Architecture Workshop 1](workshop1-FCJ2024/images/1-Introduce/fcj2024-ws1-architechture.png?featherlight=false&width=40pc)
+![Architecture Workshop 1](/workshop1-FCJ2024/images/1-Introduce/fcj2024-ws1-architechture.png?featherlight=false&width=40pc)
 
 #### Mô tả
 

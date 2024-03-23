@@ -13,24 +13,24 @@ pre: " <b> 5.1 </b> "
    - Type **`ec2`**
    - Under **Services**, select **EC2**
 
-   ![Create Bastion Host](/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0001-createbastionhost.png?featherlight=false&width=90pc)
+   ![Create Bastion Host](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0001-createbastionhost.png?featherlight=false&width=90pc)
 
 2. In the **EC2 Dashboard**
 
    - Choose **Instances**
    - Then select **Launch instances**
 
-   ![Create Bastion Host](/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0002-createbastionhost.png?featherlight=false&width=90pc)
+   ![Create Bastion Host](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0002-createbastionhost.png?featherlight=false&width=90pc)
 
 3. In the **Launch an instance** wizard:
 
    - Under **Name**, enter **`Bastion Host`**
 
-   ![Create Bastion Host](/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0003-createbastionhost.png?featherlight=false&width=90pc)
+   ![Create Bastion Host](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0003-createbastionhost.png?featherlight=false&width=90pc)
 
    - Under **Application and OS Images (Amazon Machine Image)**, select **AmazonLinux**
 
-   ![Create Bastion Host](/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0004-createbastionhost.png?featherlight=false&width=90pc)
+   ![Create Bastion Host](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0004-createbastionhost.png?featherlight=false&width=90pc)
 
    Then,
 
@@ -41,7 +41,7 @@ pre: " <b> 5.1 </b> "
 Note: If you don't have a Key pair, select **Create new key pair**
 {{% /notice %}}
 
-![Create Bastion Host](/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0005-createbastionhost.png?featherlight=false&width=90pc)
+![Create Bastion Host](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0005-createbastionhost.png?featherlight=false&width=90pc)
 
 4. In the **Network settings** section:
 
@@ -52,4 +52,4 @@ Note: If you don't have a Key pair, select **Create new key pair**
 
 5. Finally, click **Launch instance** to complete the creation of the Bastion Host.
 
-   ![Create Bastion Host](/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0006-createbastionhost.png?featherlight=false&width=90pc)
+   ![Create Bastion Host](/workshop1-FCJ2024/images/5-SetupEc2ServerAndEFS/5.1-CreateBastionHost/0006-createbastionhost.png?featherlight=false&width=90pc)
