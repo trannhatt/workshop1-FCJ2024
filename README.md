@@ -137,5 +137,52 @@ In this section, we will create a VPC and enable DNS Hostname for that VPC.
    <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0005-createvpc.png" width="100%"/>
    <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0007-createvpc.png" width="100%"/>
 
+### Enable DNS Hostname
 
+1. Navigate back to the **VPC** interface:
 
+   - Select **Your VPCS**
+   - Choose the newly created VPC **lamp-stack-vpc**
+   - Click on the **Actions** dropdown menu and select **Edit VPC settings**
+
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.2-EnableDNSHostname/0001-enablednshostname.png" width="100%"/>
+
+2. In the **Edit VPC settings** interface:
+
+   - Under **DNS settings**, select **Enable DNS resolution** and **Enable DNS hostnames**
+
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.2-EnableDNSHostname/0002-enablednshostname.png" width="100%"/>
+
+   Finally,
+
+   - Click **Save**
+   
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.2-EnableDNSHostname/0003-enablednshostname.png" width="100%"/>
+
+## Create and Attach Internet Gateway (IGW) to VPC
+
+In this section, we will create and attach an Internet Gateway (IGW) to the VPC created in the previous section.
+
+### Create Internet Gateway
+
+1. In the **VPC** interface:
+
+   - Select **Internet gateways**
+   - Click on **Create internet gateway**
+
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.1-CreateIGW/0001-createigw.png" width="100%"/>
+
+2. In the **Create internet gateway** interface:
+
+   - In the **Name tag** field, enter **`lamp-stack-igw`**
+   - In the **Tags** section:
+     - Enter **`Name`** for **Key**
+     - Optionally, enter **`lamp-stack-igw`** for **Value**
+   - Finally, click on **Create internet gateway**
+
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.1-CreateIGW/0002-createigw.png" width="100%"/>
+
+3. We have successfully created the **Internet Gateway**, but it is currently in a **Detached** state as it has not been attached to any VPC yet.
+
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.1-CreateIGW/0003-createigw.png" width="100%"/>
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.1-CreateIGW/0004-createigw.png" width="100%"/>
