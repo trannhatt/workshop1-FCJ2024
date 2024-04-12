@@ -332,3 +332,6 @@ In this section, we will create 6 subnets, including 2 Public Subnets and 4 Priv
    - Click **Save** to complete
 
    <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0006-enableipv4.png" width="100%"/>
+
+
+CONTINUE,....
