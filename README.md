@@ -108,15 +108,13 @@ In this section, we will create a VPC and enable DNS Hostname for that VPC.
 
    - Click on the search bar and type **`VPC`**
    - Under **Services**, select **VPC**
-   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0001-createvpc.png" width="50%"/>
-   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0001-createvpc.png?featherlight=false&width=90pc)
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0001-createvpc.png" width="100%"/>
 
 2. In the **VPC** interface:
 
    - Choose **Your VPCs**
    - Click **Create VPC**
-
-   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0002-createvpc.png?featherlight=false&width=90pc)
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0002-createvpc.png" width="100%"/>
 
 3. In the **Create VPC** interface:
 
@@ -124,8 +122,7 @@ In this section, we will create a VPC and enable DNS Hostname for that VPC.
    - Under **Name tag - optional**, enter **`lamp-stack-vpc`**
    - Under **IPv4 CIDR block**, choose **IPV4 CIDR manual input**
    - Enter **`10.0.0.0/16`** under **IPv4 CIDR**
-
-   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0003-createvpc.png?featherlight=false&width=90pc)
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0003-createvpc.png" width="100%"/>
 
    Continue,
 
@@ -134,12 +131,11 @@ In this section, we will create a VPC and enable DNS Hostname for that VPC.
      - Enter **`Name`** for **Key**
      - Optionally, enter **`lamp-stack-vpc`** for **Value**
    - Finally, click **Create VPC**
-
-   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0004-createvpc.png?featherlight=false&width=90pc)
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0004-createvpc.png" width="100%"/>
 
 4. You have successfully created the **VPC**
-   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0005-createvpc.png?featherlight=false&width=90pc)
-   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0007-createvpc.png?featherlight=false&width=90pc)
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0005-createvpc.png" width="100%"/>
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0007-createvpc.png" width="100%"/>
 
 
 
