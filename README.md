@@ -186,3 +186,148 @@ In this section, we will create and attach an Internet Gateway (IGW) to the VPC 
 
    <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.1-CreateIGW/0003-createigw.png" width="100%"/>
    <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.1-CreateIGW/0004-createigw.png" width="100%"/>
+
+### Attach Internet Gateway to VPC
+
+1. At the newly created IGW **lamp-stack-igw**
+
+   - Click on the **Actions** dropdown menu and select **Attach to VPC**
+
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.2-AttachToVPC/0001-attachtovpc.png" width="100%"/>
+
+2. In the **Attach to VPC** interface
+
+   - Under **Available VPCs**, select **vpc-Oacb9059f41ab5a37 - lamp-stack-vpc**
+   - Click **Attach internet gateway**
+
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.2-AttachToVPC/0002-attachtovpc.png" width="100%"/>
+   
+{{% notice note %}}
+Note: **vpc-Oacb9059f41ab5a37** is your **VPC ID**.
+{{% /notice %}}
+
+3. We have successfully attached the **Internet Gateway** to the **VPC**. The **State** will now show **Attached**.
+
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.2-AttachToVPC/0003-attachtovpc.png" width="100%"/>
+   <img alt="pipeline diagram" src="./static/images/2.2-InternetGateway/2.2.2-AttachToVPC/0004-attachtovpc.png" width="100%"/>
+
+## Create and Configure Subnets
+
+In this section, we will create 6 subnets, including 2 Public Subnets and 4 Private Subnets. Afterward, we will enable IPv4 for the 2 Public Subnets.
+
+### Create 6 Subnets
+
+1. In the **VPC** interface:
+
+   - Select **Subnets**
+   - Click on **Create subnet**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0001-createsubnet.png" width="100%"/>
+
+2. In the **Create subnet** interface:
+
+   - Under **VPC ID**, select **vpc-Oacb9059f41ab5a37 (lamp-stack-vpc)**, which is your recently created VPC
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0002-createsubnet.png" width="100%"/>
+
+   Then, under **Subnet settings**, we will create 6 subnets as follows:
+
+   - Create Public Subnet 1:
+     - In the **Subnet name** field, enter **`pub-sub-1a`**
+     - For **Availability Zone**, select **US East (N. Virginia) / us-east-1a**
+     - For **IPv4 subnet CIDR block**, enter **`10.0.1.0/24`**
+     - Under **Tags**:
+       - Enter **`Name`** for **Key**
+       - Optionally, enter **`pub-sub-1a`** for **Value**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0003-createsubnet.png" width="100%"/>
+
+   - Create Public Subnet 2:
+     - In the **Subnet name** field, enter **`pub-sub-2b`**
+     - For **Availability Zone**, select **US East (N. Virginia) / us-east-1b**
+     - For **IPv4 subnet CIDR block**, enter **`10.0.2.0/24`**
+     - Under **Tags**:
+       - Enter **`Name`** for **Key**
+       - Optionally, enter **`pub-sub-2b`** for **Value**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0004-createsubnet.png" width="100%"/>
+
+   - Create Private Subnet 3:
+     - In the **Subnet name** field, enter **`pri-sub-3a`**
+     - For **Availability Zone**, select **US East (N. Virginia) / us-east-1a**
+     - For **IPv4 subnet CIDR block**, enter **`10.0.3.0/24`**
+     - Under **Tags**:
+       - Enter **`Name`** for **Key**
+       - Optionally, enter **`pri-sub-3a`** for **Value**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0005-createsubnet.png" width="100%"/>
+
+   - Create Private Subnet 4:
+     - In the **Subnet name** field, enter **`pri-sub-4b`**
+     - For **Availability Zone**, select **US East (N. Virginia) / us-east-1b**
+     - For **IPv4 subnet CIDR block**, enter **`10.0.4.0/24`**
+     - Under **Tags**:
+       - Enter **`Name`** for **Key**
+       - Optionally, enter **`pri-sub-4b`** for **Value**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0006-createsubnet.png" width="100%"/>
+
+   - Create Private Subnet 5:
+     - In the **Subnet name** field, enter **`pri-sub-5a`**
+     - For **Availability Zone**, select **US East (N. Virginia) / us-east-1a**
+     - For **IPv4 subnet CIDR block**, enter **`10.0.5.0/24`**
+     - Under **Tags**:
+       - Enter **`Name`** for **Key**
+       - Optionally, enter **`pri-sub-5a`** for **Value**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0007-createsubnet.png" width="100%"/>
+
+   - Create Private Subnet 6:
+     - In the **Subnet name** field, enter **`pri-sub-6b`**
+     - For **Availability Zone**, select **US East (N. Virginia) / us-east-1b**
+     - For **IPv4 subnet CIDR block**, enter **`10.0.6.0/24`**
+     - Under **Tags**:
+       - Enter **`Name`** for **Key**
+       - Optionally, enter **`pri-sub-6b`** for **Value**
+      
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0008-createsubnet.png" width="100%"/>
+
+3. The subnets have been successfully created as follows:
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.1-CreateSubnet/0010-createsubnet.png" width="100%"/>
+
+### Enable IPv4 for 2 Public Subnets
+
+1. In the **Subnets** interface:
+
+   - Select the recently created **pub-sub-1a**
+   - Click on the **Actions** dropdown menu and select **Edit subnet settings**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0001-enableipv4.png" width="100%"/>
+
+   Then,
+
+   - Under **Auto-assign IP settings**, select **Enable auto-assign public IPv4 address**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0002-enableipv4.png" width="100%"/>
+
+   - Click **Save** to complete
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0003-enableipv4.png" width="100%"/>
+
+   Similarly, for the other Public Subnet,
+
+   - Select the recently created **pub-sub-2b**
+   - Click on the **Actions** dropdown menu and select **Edit subnet settings**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0004-enableipv4.png" width="100%"/>
+
+   Then,
+
+   - Under **Auto-assign IP settings**, select **Enable auto-assign public IPv4 address**
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0005-enableipv4.png" width="100%"/>
+
+   - Click **Save** to complete
+
+   <img alt="pipeline diagram" src="./static/images/2.3-Subnet/2.3.2-EnableIPv4PubSubnet/0006-enableipv4.png" width="100%"/>
