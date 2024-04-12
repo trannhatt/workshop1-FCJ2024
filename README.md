@@ -9,6 +9,7 @@ BUILD A THREE-TIER ARCHITECTURE FOR DEPLOY LAMP STACK APPLICATION ON AWS
 <p align="center">
     <b>The language used is</b>
     <a href="README.md">English</a>
+    <a href="README.md">Vietnamese</a>
 </p>
 
 # Workshop Overview 
