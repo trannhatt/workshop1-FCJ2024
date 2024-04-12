@@ -86,8 +86,60 @@ A **Target Group** is a group of AWS resource components that will receive distr
 
 **AWS WAF (Web Application Firewall)** is a network security service that helps protect your web applications from common web exploits, safeguard important data, and ensure application availability.
 
+# Build a Three-Tier AWS Network VPC
 
+In this section, we will build a Three-Tier AWS Network VPC as follows:
 
+- The **VPC** will be created in 2 availability zones with 1 public subnet and 2 private subnets in each AZ.
+- 1 **Internet Gateway** will be used to allow communication between instances within the VPC and the Internet.
+- We will utilize 2 **Availability Zones** to ensure high availability and fault tolerance.
+- Resources such as Nat Gateway, Bastion Host, and Application Load Balancer will be deployed in **Public subnets**.
+- We will place web servers and database servers in the **Private Subnets** to protect them.
+- The **Public Route Table** will be associated with the public subnets and route traffic to the Internet through the Internet Gateway.
+- The **Main Route Table** will be associated with the private subnets.
+
+## Create and Configure VPC
+
+In this section, we will create a VPC and enable DNS Hostname for that VPC.
+
+### Create VPC
+
+1. In the **AWS console** interface:
+
+   - Click on the search bar and type **`VPC`**
+   - Under **Services**, select **VPC**
+   <img alt="pipeline diagram" src="./static/images/2.1-VPC/2.1.1-CreateVPC/0001-createvpc.png" width="50%"/>
+   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0001-createvpc.png?featherlight=false&width=90pc)
+
+2. In the **VPC** interface:
+
+   - Choose **Your VPCs**
+   - Click **Create VPC**
+
+   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0002-createvpc.png?featherlight=false&width=90pc)
+
+3. In the **Create VPC** interface:
+
+   - Under **Resources to create**, select **VPC only**
+   - Under **Name tag - optional**, enter **`lamp-stack-vpc`**
+   - Under **IPv4 CIDR block**, choose **IPV4 CIDR manual input**
+   - Enter **`10.0.0.0/16`** under **IPv4 CIDR**
+
+   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0003-createvpc.png?featherlight=false&width=90pc)
+
+   Continue,
+
+   - Under **IPv6 CIDR block**, select **No IPv6 CIDR block**
+   - Under **Tags**:
+     - Enter **`Name`** for **Key**
+     - Optionally, enter **`lamp-stack-vpc`** for **Value**
+   - Finally, click **Create VPC**
+
+   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0004-createvpc.png?featherlight=false&width=90pc)
+
+4. You have successfully created the **VPC**
+   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0005-createvpc.png?featherlight=false&width=90pc)
+   ![Create VPC](/workshop1-FCJ2024/images/2.1-VPC/2.1.1-CreateVPC/0007-createvpc.png?featherlight=false&width=90pc)
 
 
 
